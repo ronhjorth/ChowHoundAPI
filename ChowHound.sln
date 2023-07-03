@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChowHound.API", "ChowHound.API\ChowHound.API.csproj", "{088A071D-4D5D-4685-A22B-E54692A4E35C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChowHound.UnitTests", "ChowHound.UnitTests\ChowHound.UnitTests.csproj", "{875C65C8-E017-441C-B9BE-5664E915ABF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChowHoundModel", "ChowHoundModel\ChowHoundModel.csproj", "{0F51B15A-CC65-46CB-8DD8-FE01263F7D42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{088A071D-4D5D-4685-A22B-E54692A4E35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088A071D-4D5D-4685-A22B-E54692A4E35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088A071D-4D5D-4685-A22B-E54692A4E35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088A071D-4D5D-4685-A22B-E54692A4E35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875C65C8-E017-441C-B9BE-5664E915ABF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875C65C8-E017-441C-B9BE-5664E915ABF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875C65C8-E017-441C-B9BE-5664E915ABF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875C65C8-E017-441C-B9BE-5664E915ABF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F51B15A-CC65-46CB-8DD8-FE01263F7D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F51B15A-CC65-46CB-8DD8-FE01263F7D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F51B15A-CC65-46CB-8DD8-FE01263F7D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F51B15A-CC65-46CB-8DD8-FE01263F7D42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

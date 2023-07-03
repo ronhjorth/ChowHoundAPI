@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "263IIoC4hl/FWd2pqtVHiyeD43/9XrvHYWdEXv0Q2QQ=",
+  "Source": "ChowHound.API",
+  "BasePath": "_content/ChowHound.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

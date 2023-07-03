@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHound.API/ChowHound.API.csproj": {}
+  },
+  "projects": {
+    "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHound.API/ChowHound.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHound.API/ChowHound.API.csproj",
+        "projectName": "ChowHound.API",
+        "projectPath": "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHound.API/ChowHound.API.csproj",
+        "packagesPath": "/Users/ronhjorth/.nuget/packages/",
+        "outputPath": "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHound.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ronhjorth/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHoundModel/ChowHoundModel.csproj": {
+                "projectPath": "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHoundModel/ChowHoundModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHoundModel/ChowHoundModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHoundModel/ChowHoundModel.csproj",
+        "projectName": "ChowHoundModel",
+        "projectPath": "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHoundModel/ChowHoundModel.csproj",
+        "packagesPath": "/Users/ronhjorth/.nuget/packages/",
+        "outputPath": "/Users/ronhjorth/Developer/ChowHoundAPI/ChowHoundModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ronhjorth/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

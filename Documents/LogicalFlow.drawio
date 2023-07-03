@@ -1,0 +1,377 @@
+<mxfile host="65bd71144e">
+    <diagram id="P5r8A-AAsaz29vvgLDUX" name="Page-1">
+        <mxGraphModel dx="2667" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" value="2.) Front end passes&lt;br&gt;VALIDATED basline&lt;br&gt;file and inputs to API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry x="-0.1351" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="550" y="210"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.014;entryY=0.329;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="370" y="325"/>
+                            <mxPoint x="370" y="325"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="8.) Front end tells&lt;br&gt;user forecast is running" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="23" vertex="1" connectable="0">
+                    <mxGeometry y="23" relative="1" as="geometry">
+                        <mxPoint x="9.000000000000002" y="-22" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.02;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" parent="1" source="2" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="360" y="424"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="12.) User redirected&lt;br&gt;to report view" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="49" vertex="1" connectable="0">
+                    <mxGeometry x="0.4989" y="1" relative="1" as="geometry">
+                        <mxPoint x="-16.05" y="-4.2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="638" y="515" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="638" y="515"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="14.) Front end&lt;br&gt;requests report data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53" vertex="1" connectable="0">
+                    <mxGeometry x="1" y="-49" relative="1" as="geometry">
+                        <mxPoint x="-88" y="-54" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" parent="1" source="2" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="330" y="533"/>
+                            <mxPoint x="330" y="533"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="17.) Report displayed&lt;br&gt;to user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="59" vertex="1" connectable="0">
+                    <mxGeometry x="0.3008" y="-1" relative="1" as="geometry">
+                        <mxPoint x="24.14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&lt;font color=&quot;#ffff33&quot;&gt;Front End&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="165" width="120" height="635" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.061;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="870" y="171"/>
+                            <mxPoint x="870" y="171"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="3.) API Creates a new forecast record from user inputs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="11" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2794" y="-1" relative="1" as="geometry">
+                        <mxPoint x="27.65" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="640" y="278.5" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="640" y="281"/>
+                        </Array>
+                        <mxPoint x="480" y="281" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="5.) API returns&lt;br&gt;@ForecastKey&lt;br&gt;or&lt;br&gt;Error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="18" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3333" relative="1" as="geometry">
+                        <mxPoint x="-26.669999999999998" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="4.) return&amp;nbsp; @ForecastKey" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.271;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=1;exitX=0.997;exitY=0.288;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                        <mxPoint x="759.6400000000001" y="279.91999999999996" as="sourcePoint"/>
+                        <mxPoint x="1210" y="279.89" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" parent="1" source="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="868" y="406" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="406"/>
+                            <mxPoint x="770" y="406"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="7.) API calls&lt;br&gt;function, passing&lt;br&gt;@ForecastKey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="32" vertex="1" connectable="0">
+                    <mxGeometry x="0.1953" y="1" relative="1" as="geometry">
+                        <mxPoint x="-10.829999999999998" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classicThin;startFill=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="870" y="664"/>
+                            <mxPoint x="870" y="664"/>
+                        </Array>
+                        <mxPoint x="760" y="664" as="sourcePoint"/>
+                        <mxPoint x="1208.3200000000002" y="663.27" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="15.) API calls report SP, passing ForecastID,&lt;br&gt;receives report data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="55" vertex="1" connectable="0">
+                    <mxGeometry x="-0.439" y="-1" relative="1" as="geometry">
+                        <mxPoint x="94.48" y="-3.01" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.042;exitY=0.666;exitDx=0;exitDy=0;startArrow=none;startFill=0;exitPerimeter=0;entryX=0.967;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="636.96" y="561.23" as="sourcePoint"/>
+                        <mxPoint x="478.03999999999996" y="563.145" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="558" y="561"/>
+                            <mxPoint x="558" y="563"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="16.) API returns&lt;br&gt;report data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="57" vertex="1" connectable="0">
+                    <mxGeometry x="0.3942" y="1" relative="1" as="geometry">
+                        <mxPoint x="28.8" y="-3.63" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="&lt;font color=&quot;#ffff00&quot;&gt;API&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="125" width="120" height="655" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;entryX=-0.002;entryY=0.577;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1209.7199999999998" y="400.42999999999984" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1208" y="401"/>
+                        </Array>
+                        <mxPoint x="990" y="400.4000000000001" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="8.) Function pulls DRG baseline&lt;br&gt;based on ForecastID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="37" vertex="1" connectable="0">
+                    <mxGeometry x="0.0113" y="-29" relative="1" as="geometry">
+                        <mxPoint x="0.00999999999999801" y="-28.83" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.665;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1207" y="548"/>
+                        </Array>
+                        <mxPoint x="990" y="547.4000000000001" as="sourcePoint"/>
+                        <mxPoint x="1209.1599999999999" y="547.3499999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="9.) Function writes completed&lt;br&gt;forecast to DB, tagging with&lt;br&gt;@ForecastID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="40" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1433" y="-3" relative="1" as="geometry">
+                        <mxPoint x="16.67" y="0.96" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=1.004;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="760.48" y="590.1100000000001" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="830" y="591"/>
+                        </Array>
+                        <mxPoint x="870" y="590.0999999999999" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="10.) Function&lt;br&gt;signals API&lt;br&gt;run complete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="44" vertex="1" connectable="0">
+                    <mxGeometry x="0.1967" y="1" relative="1" as="geometry">
+                        <mxPoint x="9.17" y="-2.92" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="&lt;font color=&quot;#ffff00&quot;&gt;Forecast&lt;br&gt;Function&lt;br&gt;App&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="355" width="120" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ffff00&quot;&gt;Database&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="134" width="140" height="656" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="330" y="275"/>
+                            <mxPoint x="330" y="275"/>
+                        </Array>
+                        <mxPoint x="360" y="275" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="1.) User uploads&lt;br&gt;DRG baseline file and&amp;nbsp;&lt;br&gt;inputs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="21" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2727" y="3" relative="1" as="geometry">
+                        <mxPoint x="22.07" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;startArrow=none;startFill=0;" parent="1" source="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="359" y="473" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="13.) User requests&amp;nbsp;&lt;br&gt;report" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="51" vertex="1" connectable="0">
+                    <mxGeometry x="0.0068" y="-21" relative="1" as="geometry">
+                        <mxPoint x="0.05999999999999872" y="-19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="&lt;font color=&quot;#ffff00&quot;&gt;User Mobile&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="210" width="120" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="api/UserInputBaseLine&lt;br&gt;(@UserInputs&lt;br&gt;@BaseLineInputs)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="732.0011770817" y="227.0010301988244" as="geometry">
+                        <mxPoint x="-34" y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="125" value="api/ForecastRun&lt;br&gt;@ForecastKey&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="720.0011770817" y="386.0010301988244" as="geometry">
+                        <mxPoint x="-34" y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="dbo.insertUserInput" link="dbo.insertUserInput" id="127">
+                    <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="1215" y="160" width="105" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="130" value="userInputs : itemName ItemValue&lt;br&gt;baselineInputs : drg monthYear Volume&lt;br&gt;&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="850" y="180" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="dbo.insertDRGBaseline" link="dbo.insertDRGBaseline" id="131">
+                    <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="1215" y="180" width="150" height="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="132" value="6.) Calls run forecast &lt;br&gt;end point" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry x="-0.011" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="551" y="378.45"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="481" y="379.05" as="sourcePoint"/>
+                        <mxPoint x="640.76" y="378.99999999999994" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="133" value="api/forecastRunner" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="876" y="391" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="dbo.insertForcast&lt;br&gt;Mark Complete" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1217" y="529" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="&lt;font color=&quot;#e6e6e6&quot;&gt;Forecast&lt;br&gt;Library&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="530" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="dbo.selectDRGBaseLine" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1214" y="385" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.02;entryY=0.915;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="640" y="475.9" as="sourcePoint"/>
+                        <mxPoint x="482.4000000000001" y="475.9999999999999" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="530" y="476"/>
+                            <mxPoint x="530" y="476"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" value="11.) Run complete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="137" vertex="1" connectable="0">
+                    <mxGeometry x="0.3942" y="1" relative="1" as="geometry">
+                        <mxPoint x="28.8" y="-3.63" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="139" value="&lt;font color=&quot;#ff9933&quot;&gt;dbo.selectFilters&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="694" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;api/Forecast&lt;/span&gt;&lt;br style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;@ForecastKey&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="644" y="500" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.665;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classicThin;startFill=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1207" y="480.65"/>
+                        </Array>
+                        <mxPoint x="990" y="480.05000000000007" as="sourcePoint"/>
+                        <mxPoint x="1209.1599999999999" y="479.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="142" value="8 a.) Get LookUps for caching" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="141" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1433" y="-3" relative="1" as="geometry">
+                        <mxPoint x="16.67" y="-3.0700000000000003" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="143" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;api/getFilters&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;@ForecastKey&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="646" y="670" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;api/getFilteredForecats&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;@ForecastKey , List&amp;lt;Filters&amp;gt;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="644" y="724" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="638" y="689.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="638" y="689.5"/>
+                        </Array>
+                        <mxPoint x="480" y="689.5" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="638" y="760" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="638" y="760"/>
+                        </Array>
+                        <mxPoint x="480" y="760" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1200" y="700" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="918" y="700"/>
+                        </Array>
+                        <mxPoint x="760" y="700" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="150" value="dbo.selectCompleted&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Forecast" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="655" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="&lt;font color=&quot;#ff9933&quot;&gt;dbo.selectFilterForecast&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="736" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1200" y="750.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="918" y="750.5"/>
+                        </Array>
+                        <mxPoint x="760" y="750.5" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="153" value="&lt;font color=&quot;#ff9933&quot;&gt;F1) Front end&lt;br&gt;requests filters&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="560" y="694" as="geometry">
+                        <mxPoint x="-4" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" value="&lt;font color=&quot;#ff8000&quot;&gt;F2) API calls sproc to get filts&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="950" y="700" as="geometry">
+                        <mxPoint x="10" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="157" value="&lt;font color=&quot;#ff9933&quot;&gt;F3) Front end&lt;br&gt;requests &lt;br&gt;Filtered Forecast&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="550" y="756" as="geometry">
+                        <mxPoint x="16" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="158" value="&lt;font color=&quot;#ff8000&quot;&gt;F4.) API calls report SP, passing ForecastID,&lt;br&gt;receives filtered report data&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="990" y="751" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="&lt;font color=&quot;#ff8000&quot;&gt;F steps refer to filting the forecasts reports for Sprint 4&amp;nbsp;&lt;br&gt;&lt;br&gt;Note that all the building of the forecast must be complete before trying to call any filter rnd points&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="607" width="120" height="186" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
