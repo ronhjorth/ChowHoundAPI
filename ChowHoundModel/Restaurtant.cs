@@ -3,6 +3,7 @@ namespace ChowHoundModel;
 public class Restaurant
 {
     public int Id { get; set; }
+    public Guid RestaurantId { get; set; }
     public int AddressId { get; set; }
     public int GeoCodeId { get; set; }
     public string? Name { get; set; }
@@ -11,4 +12,6 @@ public class Restaurant
     public string? Hours { get; set; }
     public string? PriceRange { get; set; }
     public string? AddressFormatted { get; set; }
+    
+    public string? UpdateDate { get; set; }
 }
