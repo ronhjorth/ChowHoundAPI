@@ -1,11 +1,12 @@
 using ChowHound.API.Models;
 using ChowHound.API.Services.Interfaces;
+using ChowHoundModel;
 
 namespace ChowHound.API.Services;
 
 public class RequestRestaurants: IRequestRestaurants
 {
-    List<string> Restaurants = new List<string>
+    List<string> _restaurants = new List<string>
     {
         "Noma (Copenhagen, Denmark)",
         "Osteria Francescana (Modena, Italy)",
@@ -39,13 +40,11 @@ public class RequestRestaurants: IRequestRestaurants
     {
         int limit = 3;
         return Enumerable.Range(1, limit > 0 ? limit : 1).Select(index => new Restaurant()
-            {
-                // D = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                // TemperatureC = Random.Shared.Next(-20, 55),
-                Name = Restaurants[Random.Shared.Next(Restaurants.Count)]
-            })
-            .ToList();
-            //.ToArray();
-        //return new Restaurant();
+        {
+            RestaurantId = Guid.NewGuid(),
+            Id = Random.Shared.Next(10, 55),
+            UpdateDate = DateOnly.FromDateTime(DateTime.Now.AddDays(index)).ToString(), 
+            Name = _restaurants[Random.Shared.Next(_restaurants.Count)]
+        }).ToList();
     }
 }

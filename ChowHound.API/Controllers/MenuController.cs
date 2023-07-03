@@ -21,18 +21,6 @@ public class MenuController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "GetRestaurants")]
-    [ProducesResponseType(typeof(Restaurant[]), StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status204NoContent)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    //public async Task<IActionResult> Get()
-    public IActionResult GetRestaurants(int limit)
-    {
-        //TODO need to get into the pipeline
-        RequestRestaurants service = new RequestRestaurants();
-        return Ok(service.GetRestaurants());
-    }
-
     [HttpGet(Name = "GetMenu")]
     [ProducesResponseType(typeof(Menu[]), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
